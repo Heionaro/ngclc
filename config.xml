@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>NG_clc</name>
+    <name>ngclc</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        ahtung_closet_alpha
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="developer.pegov.k.com" href="https://plus.google.com/u/0/111989998303955094053">
+        pegov_k
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
