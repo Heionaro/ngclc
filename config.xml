@@ -12,7 +12,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <access origin="*" />
     <platform name="android">
-        <allow-intent href="market:**" />
+        <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
