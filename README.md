@@ -1,2 +1,1 @@
-# ngclc
-bydlo kod; do not look
+i am the master of bydlo kod
