@@ -7,22 +7,6 @@
         <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
         <script src="jquery.min.js"></script>
         <script src="jquery.mobile-1.4.5.min.js"></script>
-        <!-- clc's -->
-        <script>
-            //clc//
-            function getsum() {
-                var form1 = document.forms.form;
-                var num01 = form.elements.number1.value;
-                var num02 = form.elements.number2.value;
-                var sum = +num01 + +num02;
-                return sum;
-}
-
-            function getresult() {
-                document.getElementById('res').innerHTML = getsum();
-}
-
-        </script>
         
     </head>
     <body>
@@ -33,45 +17,247 @@
             </div>
 
             <div role="main" class="ui-content">
-                <a href="#clc" class="ui-btn ui-corner-all">clc</a>
-                <div data-role="collapsible" data-theme="b">
-                    <h4>info</h4>
-                    <p>clc info</p>
-                </div>
+                <a href="#hiragana" class="ui-btn ui-corner-all">Хирагана</a>
             </div>
 
             <div data-role="footer">
                 <h4>pegov_k</h4>
             </div>
         </div>
-        
     <!--========================================================================================================================-->
         
-        <div data-role="page" id="clc">
-            <div data-role="header" data-theme="b">
-                <h1>clc</h1>
+        <div data-role="page" id="hiragana">
+            <div data-role="header">
+                <h1>Хирагана</h1>
             </div>
-            <h3 class="ui-bar ui-bar-a">Сумма двух чисел</h3>
             
-                <div role="main" class="ui-content">
-                    <form name="form">
-                    <label for="number-pattern">Первое число</label>
-                    <input type="number" name="number1" pattern="[0-9]*" id="number-pattern1" value="">
-                    
-                    <label for="number-pattern">Второе число</label>
-                    <input type="number" name="number2" pattern="[0-9]*" id="number-pattern2" value="">
-                    </form>
-                </div>
+            <div data-role="header" data-theme="b">
+                <h2>Гласные</h2>
+            </div>
             
-                <button onclick="getresult()">Вычислить</button>
+            <div class="ui-grid-a" style="font-size:200%">
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">あ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">а</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">い</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">и</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">う</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">у</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">え</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">э</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">お</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">о</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">や</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">я</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ゆ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ю</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">よ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ё</div></div>
+            </div>
             
-            <div class="ui-corner-all custom-corners">
-                <div class="ui-bar ui-bar-a">
-                    <h3>Результат</h3>
-                </div>
-                <div class="ui-body ui-body-a">
-                    <div id="res"></p>
-                </div>
+            <div data-role="header" data-theme="b">
+                <h2>Согласные</h2>
+            </div>
+            
+            <div class="ui-grid-a" style="font-size:200%">
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">か</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ка</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">き</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ки</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">く</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ку</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">け</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">кэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">こ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ко</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">が</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">га</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぎ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ги</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぐ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">гу</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">げ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">гэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ご</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">го</div></div>
+            
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">た</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">та</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ち</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">чи (ти)</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">つ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">цу</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">て</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">тэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">と</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">то</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">だ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">да</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぢ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ди</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">づ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ду</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">で</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">дэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ど</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">до</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">さ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">са</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">し</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">си</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">す</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">су</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">せ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">сэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">そ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">со</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ざ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">дза</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">じ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">дзи</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ず</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">дзу</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぜ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">дзе</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぞ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">дзо</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">は</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ха</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ひ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">хи</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ふ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">фу (ху)</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">へ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">хэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ほ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">хо</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ば</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ба</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">び</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">би</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぶ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">бу</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">べ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">бэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぼ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">бо</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぱ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">па</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぴ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">пи</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぷ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">пу</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぺ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">пэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぽ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">по</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">な</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">на</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">に</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ни</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ぬ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ну</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ね</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">нэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">の</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">но</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ま</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ма</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">み</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ми</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">む</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">му</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">め</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">мэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">も</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">мо</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ら</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ра</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">り</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ри</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">る</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ру</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">れ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">рэ</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">ろ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ро</div></div>
+                
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:40px">わ</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:40px">ва</div></div>
+            </div>
+            
+            <div class="ui-body ui-body-a ui-corner-all">
+                <h1>ん</h1>
+                <p>Носовой слогообразующий "н". Не смягчается последующими гласными, что в транскрипции передается как "нь"</p>
+            </div>
+            
+            <div class="ui-body ui-body-a ui-corner-all">
+                <h1>っ</h1>
+                <p>Обозначает удвоение начальной согласной следующего за ним слога. Выглядит как уменьшенный "цу".</p>
             </div>
             
             <div data-role="footer" style="overflow:hidden;">
